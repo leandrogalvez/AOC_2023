@@ -9,7 +9,6 @@ maximos = {
 }
 result = 0
 valid_games = []
-
 for line in lines:
     game, match = line.split(':')
     matches = match.split(';')
